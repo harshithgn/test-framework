@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Upload Files to Eventhub Suite" parallel="tests" thread-count="5">
+
+    <test verbose="1" name="Running Upload Files to Eventhub Suite">
+        <classes>
+            <class name="runner.Base"/>
+        </classes>
+    </test>
+</suite>
